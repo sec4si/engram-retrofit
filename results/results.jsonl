@@ -1,0 +1,27 @@
+{"mode": "base", "ckpt": null, "random_rows": false, "heldout_ppl": 16.04301667821347, "wiki_ppl": 14.110298950080145, "trivia_em": 0.2125}
+{"mode": "engram", "ckpt": "runs/engram", "random_rows": false, "heldout_ppl": 16.725507900249205, "wiki_ppl": 15.450790652836117, "trivia_em": 0.193}
+{"mode": "engram", "ckpt": "runs/engram", "random_rows": true, "heldout_ppl": 16.91764501439912, "wiki_ppl": 14.97036505103617, "trivia_em": 0.178}
+{"mode": "engram", "ckpt": "runs/engram_small", "random_rows": false, "heldout_ppl": 15.767851783636223, "wiki_ppl": 14.256889725096299, "trivia_em": 0.206}
+{"mode": "engram", "ckpt": "runs/engram_small", "random_rows": true, "heldout_ppl": 16.148532726093595, "wiki_ppl": 14.22617378784276, "trivia_em": 0.2095}
+{"mode": "base", "ckpt": null, "dict": null, "random_rows": false, "heldout_ppl": 16.04301667821347, "wiki_ppl": 14.110298950080145, "trivia_em": 0.2125}
+{"mode": "engram", "ckpt": "runs/engram", "dict": null, "random_rows": false, "heldout_ppl": 16.725507900249205, "wiki_ppl": 15.450790652836117, "trivia_em": 0.193}
+{"mode": "engram", "ckpt": "runs/engram", "dict": null, "random_rows": true, "heldout_ppl": 16.91764501439912, "wiki_ppl": 14.97036505103617, "trivia_em": 0.178}
+{"mode": "lora", "ckpt": "runs/lora8", "dict": null, "random_rows": false, "heldout_ppl": 15.35360021217737, "wiki_ppl": 14.164010351066382, "trivia_em": 0.1935}
+{"mode": "engram", "ckpt": "runs/dict20", "dict": "data/dict20.pt", "random_rows": false, "heldout_ppl": 15.708829976303777, "wiki_ppl": 14.256271498102357, "trivia_em": 0.2145}
+{"mode": "engram", "ckpt": "runs/dict20", "dict": "data/dict20.pt", "random_rows": true, "heldout_ppl": 16.124288767256555, "wiki_ppl": 14.213586096833179, "trivia_em": 0.207}
+{"mode": "engram", "ckpt": "runs/hash200k", "dict": null, "random_rows": false, "heldout_ppl": 16.053724962841784, "wiki_ppl": 14.631551221691746, "trivia_em": 0.1995}
+{"mode": "engram", "ckpt": "runs/hash200k", "dict": null, "random_rows": true, "heldout_ppl": 16.375546247560223, "wiki_ppl": 14.436221725013963, "trivia_em": 0.2035}
+{"mode": "engram", "ckpt": "runs/dict50", "dict": "data/dict50.pt", "random_rows": false, "heldout_ppl": 15.65031905150015, "wiki_ppl": 14.202285238985505, "trivia_em": 0.215}
+{"mode": "engram", "ckpt": "runs/dict50", "dict": "data/dict50.pt", "random_rows": true, "heldout_ppl": 16.110517267663543, "wiki_ppl": 14.187594238854983, "trivia_em": 0.2085}
+{"mode": "engram", "ckpt": "runs/dict20_lr5", "dict": "data/dict20.pt", "random_rows": false, "heldout_ppl": 15.842242011313685, "wiki_ppl": 14.372942533414824, "trivia_em": 0.207}
+{"mode": "engram", "ckpt": "runs/dict20_lr5", "dict": "data/dict20.pt", "random_rows": true, "heldout_ppl": 16.345197113203074, "wiki_ppl": 14.380153066397355, "trivia_em": 0.2055}
+{"mode": "engram", "ckpt": "runs/p2_heavy_dict", "dict": "data/dict50.pt", "random_rows": false, "drop_mlp": [3, 4, 5, 6], "heldout_ppl": 20.239443316534263, "wiki_ppl": 19.91441433022622, "trivia_em": 0.1085}
+{"mode": "engram", "ckpt": "runs/p2_heavy_dict", "dict": "data/dict50.pt", "random_rows": true, "drop_mlp": [3, 4, 5, 6], "heldout_ppl": 30.277738992294083, "wiki_ppl": 29.91212901727136, "trivia_em": 0.0545}
+{"mode": "engram", "ckpt": "runs/p2_mid_dict", "dict": "data/dict50.pt", "random_rows": false, "drop_mlp": [3, 4], "heldout_ppl": 18.28975773360154, "wiki_ppl": 17.247280920155088, "trivia_em": 0.133}
+{"mode": "engram", "ckpt": "runs/p2_mid_dict", "dict": "data/dict50.pt", "random_rows": true, "drop_mlp": [3, 4], "heldout_ppl": 22.707628967505226, "wiki_ppl": 21.213586637741333, "trivia_em": 0.0935}
+{"mode": "base", "ckpt": null, "dict": null, "random_rows": false, "drop_mlp": [3, 4, 5, 6], "heldout_ppl": 83.16817380867143, "wiki_ppl": 84.40320876825471, "trivia_em": 0.0035}
+{"mode": "lora", "ckpt": "runs/p2_heavy_lora", "dict": null, "random_rows": false, "drop_mlp": [3, 4, 5, 6], "heldout_ppl": 18.624080484674913, "wiki_ppl": 17.986320776389686, "trivia_em": 0.1045}
+{"mode": "base", "ckpt": null, "dict": null, "random_rows": false, "drop_mlp": [3, 4], "heldout_ppl": 35.63048266947502, "wiki_ppl": 34.01423212585446, "trivia_em": 0.074}
+{"mode": "lora", "ckpt": "runs/p2_mid_lora", "dict": null, "random_rows": false, "drop_mlp": [3, 4], "heldout_ppl": 17.318353034724357, "wiki_ppl": 16.35705817060513, "trivia_em": 0.1055}
+{"mode": "base", "ckpt": null, "dict": null, "random_rows": false, "drop_mlp": [], "mean_table": "data/meantab.pt", "heldout_ppl": 20.371529257955597, "wiki_ppl": 20.736219065407294, "trivia_em": 0.1245}
+{"mode": "lora", "ckpt": "runs/p3_mean_lora", "dict": null, "random_rows": false, "drop_mlp": [], "mean_table": "data/meantab.pt", "heldout_ppl": 17.382834894721476, "wiki_ppl": 16.829896882330676, "trivia_em": 0.1345}
